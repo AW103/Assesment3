@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Homepage</title>
+    <link href="styles.css" rel="stylesheet" />
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Patrick+Hand&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <ol>
+        <li class="crumb"><a href="./home.html">Home</a></li>
+        <li class="crumb"><a href="./profile.html">Profile</a></li>
+        <li class="crumb"><a href="./about.html">About</a></li>
+      </ol>
+    </nav>
+
+    <div class="content">
+      <h1>Don Gato Welcomes You</h1>
+      <!-- insert hello world here -->
+
+      <img
+        id="donGato"
+        class="catPic"
+        src="https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+      />
+	  <section class="welcome">
+      <p class="welcomeMessage">
+        Bienvenidos. Welcome to the site of Don Gato. Whatever the circumstances
+        of your arrival may be, you are here now to receive the many blessings
+        of Don Gato. Don Gato is a good kitty and, as with any good kitty, Don
+        Gato deserves pets and chin scratches. Sit back, relax, and absorb the
+        positive energy that Don Gato bestows on you with each pet. Don Gato
+        sees all. Don Gato knows best.
+      </p>
+	</section>
+        <ul id="complimentList">
+          <li class="compliment com1">
+            Don Gato says: You are one hot tamale.
+          </li>
+          <li class="compliment com2">Don Gato says: I love you. Too soon?</li>
+          <li class="compliment com3">
+            Don Gato says: Are you always this awesome?? You are purrrfect.
+          </li>
+          <li class="compliment com4">
+            Don Gato says: Your efforts are an inspiration. Don Gato sees all.
+          </li>
+          <li class="compliment com5">
+            Don Gato says: If you were a Transformer, you'd be Optimus FINE. ;)
+          </li>
+          <li class="compliment com6">
+            Don Gato says: You are a light in this world.
+          </li>
+          <li class="compliment com7">
+            Don Gato says: I love the way your eyes shine. Don Gato sees all.
+          </li>
+        </ul>
+		<section class="contactUs">
+		  <h2>Contact Us</h2>
+		  <form id="contact">
+			<div class="references">
+          How did you hear about us?
+		  <br>
+            <input class="radio" type="radio" id="google" />
+            <label for="google">Google</label>
+			<input class="radio" type="radio" id="friend" />
+			<label for="friend">A Friend</label>
+			
+			<input class="radio" type="radio" id="other" />
+			<label for="other">Other</label>
+		</div>
+		<div>
+		Your name:
+		<input type="text" />
+		
+		Message:
+          <input type="textarea" />
+
+          <input type="submit" />
+		</div>
+        </form>
+      </section>
+    </div>
+
+    <script src="about.js"></script>
+  </body>
+</html>

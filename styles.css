@@ -1,0 +1,64 @@
+body {
+  background: #ddd;
+  padding: 1rem;
+  max-width: 80%;
+  margin: 2rem auto;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+	font-weight: 300;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+h1 {
+	font-family: "Patrick Hand", sans-serif, cursive;
+}
+.catPic {
+	height: 250px;
+	width: 200px;
+}
+.welcomeMessage {
+	font-size: 24px;
+	font-weight: 600;
+}
+
+input {
+	display: flex;
+}
+
+.compliment {
+	visibility: hidden;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.contactUs {
+	text-align: left;
+	padding: 3%;
+}
+input.radio {
+	display: inline;
+}
+.references {
+	margin: 3% 0;
+}
+
