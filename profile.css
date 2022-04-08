@@ -107,6 +107,22 @@ a:visited {
     margin: 40px auto 60px auto;
     width: 40%;
   }
+.favsBtn {
+    background: #6d0b0b;
+    background-image: -webkit-linear-gradient(top, #d35050, #6d0b0b);
+    background-image: -moz-linear-gradient(top, #d35050, #6d0b0b);
+    background-image: -ms-linear-gradient(top, #d35050, #6d0b0b);
+    background-image: -o-linear-gradient(top, #d35050, #6d0b0b);
+    background-image: linear-gradient(to bottom, #d35050, #6d0b0b);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 8px 10px;
+    text-decoration: none;
+  }
   .btn {
     background: #6d0b0b;
     background-image: -webkit-linear-gradient(top, #d35050, #6d0b0b);
